@@ -6,3 +6,7 @@ function load_imob_scripts(){
 	wp_enqueue_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array( 'jquery' ), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'load_imob_scripts', 10, 1 );
+
+register_nav_menus( 
+	array( 'my_menu_main' => 'Menu Principal') 
+);
