@@ -37,3 +37,7 @@
 			</div>
 		</section>
 	</header>
+	<section id="main">
+		<div style="" class="">
+		</div>
+	</section>
